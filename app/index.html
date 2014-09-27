@@ -1,0 +1,74 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic Tac Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/home.css">
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h2 class="text-center capitalize">Tic Tac Toe</h2>
+        </header>
+        <hr>
+        <div id="game">
+            <div id="new-game-ctrls" class="text-center">
+                Select grid size &nbsp;
+                <div class="dropdown">
+                    <button id="grid-size" class="dropdown-btn capitalize" onclick="TICTACTOE.selectGridSize()">
+                        <span>3</span>
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                    </ul>
+                </div>
+                <button id="new-game-btn" class="bold" onclick="TICTACTOE.Game.init()">Start New Game</button>
+            </div>
+            <span id="loading-game" class="bold">Setting up the board...</span>
+            <span id="board-overlay"></span>
+            <div id="board" class="text-center">
+                <span id="legend">
+                    <span>&nbsp;
+                        <i>Player 1 -  X</i>
+                    </span>
+                    <br>
+                    <span>
+                        <i>Player 2 -  O</i>
+                    </span>
+                </span>
+                <h4 id="game-status">Player 1's turn</h4>
+                <table id="grid">
+                </table>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script src="scripts/board.js"></script>
+        <script src="scripts/game.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

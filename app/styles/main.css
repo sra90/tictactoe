@@ -1,0 +1,47 @@
+*,*:before,*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    //background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    //color: #333;
+    //background-color: #ffffff;
+    //letter-spacing: 0.48em;
+    margin: 2em;
+    overflow-x: hidden;
+}
+
+hr{
+    border-color: #f3f3f3;
+    //margin: 0.31em 0 0.625em;
+}
+
+p, ul, ol{
+    margin-bottom: 0em;
+}
+
+.bold{
+    font-weight: 700;   
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}

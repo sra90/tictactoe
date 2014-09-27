@@ -1,0 +1,151 @@
+#game{
+	margin: 2em 0.5em;
+}
+
+#loading-game{
+	position: relative;
+	top: 8em;
+	left: 45%;
+	display: none;
+	z-index: 200;
+}
+
+#new-game-ctrls{
+	margin: 1em;
+}
+
+#new-game-btn{
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	text-align: center;
+	padding: 4px 8px;
+	border-radius: 3px;
+	outline: none;
+}
+
+#new-game-btn:hover{
+	background-color: #449d44;
+	border-color: #398439;
+	cursor: pointer;
+}
+
+.dropdown{
+	display: inline-block;
+	position: relative;
+}
+
+.dropdown-btn{
+	padding: 5px 1px 5px 5px;
+	width: 4em;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-color: #ccc;
+	border-radius: 3px;
+	outline: none;
+}
+
+.dropdown-menu{
+	border: 1px solid #cbcbcb;
+	padding: 0;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	width: 3.35em;
+	max-height: 6em;
+	margin: 0 2px;
+	list-style: none;
+	background-color: #fff;
+	position: absolute;
+	top: 92%;
+	left: -4%;
+	z-index: 1000;
+	display: none;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.dropdown-menu li
+{
+	padding: 2px;
+}
+
+.dropdown-menu li:hover{
+	cursor: pointer;
+	background-color: #eee;
+}
+
+.caret{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	vertical-align: middle;
+	border-top: 5px solid #000;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-bottom: 0;
+	content: "";
+	border-top-color: #333;
+}
+
+#board{
+	background: url('../images/board.png') repeat 0 0;
+	width: 100%;
+	min-height: 25em;
+	padding: 1em;
+	border-radius: 3px;
+	border: 0.35em solid #7b440b;
+	display: none;
+}
+
+#legend{
+	float: right;
+}
+
+#game-status{
+	clear: both;
+}
+
+#grid{
+	min-width: 45%;
+	margin: 0.5em auto;
+	border-spacing: 0;
+	border-top-width: 0.35em;
+	border-top-color: rgba(222, 184, 135, 0.99);
+	border-top-style: groove;
+	border-left-width: 0.35em;
+	border-left-color: rgba(222, 184, 135, 0.99);
+	border-left-style: groove;
+}
+
+#grid td{
+	border-width: 0 0.2em 0.2em 0;
+	border-style: groove;
+	border-color: rgba(222, 184, 135, 0.99);
+}
+
+#grid tr:nth-child(odd) td:nth-child(odd){
+	background-color: rgba(177, 54, 6, 0.93);
+}
+
+#grid tr:nth-child(odd) td:nth-child(even){
+	background-color: rgba(112, 63, 33, 0.94);	
+}
+
+#grid tr:nth-child(even) td:nth-child(odd){
+	background-color: rgba(112, 63, 33, 0.94);
+}
+
+#grid tr:nth-child(even) td:nth-child(even){
+	background-color: rgba(177, 54, 6, 0.93);
+}
+
+
+#board-overlay{
+	display: none;
+	float: left;
+	z-index: 100;
+	position: absolute;
+}
+

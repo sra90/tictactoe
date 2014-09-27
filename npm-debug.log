@@ -1,0 +1,485 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose node symlink /usr/bin/node
+5 warn package.json tictactoe@0.0.0 No description
+6 warn package.json tictactoe@0.0.0 No repository field.
+7 warn package.json tictactoe@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/home/rohit/Documents/Druva/tictactoe',
+9 verbose install   [ 'grunt',
+9 verbose install     'grunt-contrib-copy',
+9 verbose install     'grunt-contrib-concat',
+9 verbose install     'grunt-contrib-uglify',
+9 verbose install     'grunt-contrib-compass',
+9 verbose install     'grunt-contrib-jshint',
+9 verbose install     'grunt-contrib-cssmin',
+9 verbose install     'grunt-contrib-connect',
+9 verbose install     'grunt-contrib-clean',
+9 verbose install     'grunt-contrib-htmlmin',
+9 verbose install     'grunt-bower-install',
+9 verbose install     'grunt-contrib-imagemin',
+9 verbose install     'grunt-contrib-watch',
+9 verbose install     'grunt-rev',
+9 verbose install     'grunt-autoprefixer',
+9 verbose install     'grunt-usemin',
+9 verbose install     'grunt-mocha',
+9 verbose install     'grunt-newer',
+9 verbose install     'grunt-svgmin',
+9 verbose install     'grunt-concurrent',
+9 verbose install     'load-grunt-tasks',
+9 verbose install     'time-grunt',
+9 verbose install     'jshint-stylish' ] ]
+10 info preinstall tictactoe@0.0.0
+11 verbose readDependencies using package.json deps
+12 verbose already installed skipping load-grunt-tasks@~0.2.0 /home/rohit/Documents/Druva/tictactoe
+13 verbose already installed skipping time-grunt@~0.2.0 /home/rohit/Documents/Druva/tictactoe
+14 verbose already installed skipping jshint-stylish@~0.1.3 /home/rohit/Documents/Druva/tictactoe
+15 verbose already installed skipping grunt@~0.4.1 /home/rohit/Documents/Druva/tictactoe
+16 verbose already installed skipping grunt-contrib-copy@~0.4.1 /home/rohit/Documents/Druva/tictactoe
+17 verbose cache add [ 'grunt-contrib-jshint@~0.7.0', null ]
+18 verbose cache add name=undefined spec="grunt-contrib-jshint@~0.7.0" args=["grunt-contrib-jshint@~0.7.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'grunt-contrib-jshint@~0.7.0',
+19 verbose parsed url   path: 'grunt-contrib-jshint@~0.7.0',
+19 verbose parsed url   href: 'grunt-contrib-jshint@~0.7.0' }
+20 verbose cache add name="grunt-contrib-jshint" spec="~0.7.0" args=["grunt-contrib-jshint","~0.7.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '~0.7.0',
+21 verbose parsed url   path: '~0.7.0',
+21 verbose parsed url   href: '~0.7.0' }
+22 verbose addNamed [ 'grunt-contrib-jshint', '~0.7.0' ]
+23 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+24 verbose already installed skipping grunt-contrib-concat@~0.3.0 /home/rohit/Documents/Druva/tictactoe
+25 verbose already installed skipping grunt-contrib-cssmin@~0.7.0 /home/rohit/Documents/Druva/tictactoe
+26 verbose already installed skipping grunt-contrib-uglify@~0.2.0 /home/rohit/Documents/Druva/tictactoe
+27 verbose already installed skipping grunt-contrib-connect@~0.5.0 /home/rohit/Documents/Druva/tictactoe
+28 silly lockFile c1ebcc7c-grunt-contrib-jshint-0-7-0 grunt-contrib-jshint@~0.7.0
+29 verbose lock grunt-contrib-jshint@~0.7.0 /home/rohit/.npm/c1ebcc7c-grunt-contrib-jshint-0-7-0.lock
+30 verbose already installed skipping grunt-contrib-compass@~0.7.0 /home/rohit/Documents/Druva/tictactoe
+31 verbose already installed skipping grunt-contrib-clean@~0.5.0 /home/rohit/Documents/Druva/tictactoe
+32 verbose already installed skipping grunt-contrib-htmlmin@~0.1.3 /home/rohit/Documents/Druva/tictactoe
+33 silly addNameRange { name: 'grunt-contrib-jshint',
+33 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+33 silly addNameRange   hasData: false }
+34 verbose cache add [ 'grunt-contrib-imagemin@~0.2.0', null ]
+35 verbose cache add name=undefined spec="grunt-contrib-imagemin@~0.2.0" args=["grunt-contrib-imagemin@~0.2.0",null]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'grunt-contrib-imagemin@~0.2.0',
+36 verbose parsed url   path: 'grunt-contrib-imagemin@~0.2.0',
+36 verbose parsed url   href: 'grunt-contrib-imagemin@~0.2.0' }
+37 verbose cache add name="grunt-contrib-imagemin" spec="~0.2.0" args=["grunt-contrib-imagemin","~0.2.0"]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: '~0.2.0',
+38 verbose parsed url   path: '~0.2.0',
+38 verbose parsed url   href: '~0.2.0' }
+39 verbose addNamed [ 'grunt-contrib-imagemin', '~0.2.0' ]
+40 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+41 silly lockFile 65f7368c-grunt-contrib-imagemin-0-2-0 grunt-contrib-imagemin@~0.2.0
+42 verbose lock grunt-contrib-imagemin@~0.2.0 /home/rohit/.npm/65f7368c-grunt-contrib-imagemin-0-2-0.lock
+43 verbose already installed skipping grunt-bower-install@~0.7.0 /home/rohit/Documents/Druva/tictactoe
+44 verbose already installed skipping grunt-contrib-watch@~0.5.2 /home/rohit/Documents/Druva/tictactoe
+45 verbose already installed skipping grunt-rev@~0.1.0 /home/rohit/Documents/Druva/tictactoe
+46 verbose already installed skipping grunt-autoprefixer@~0.5.0 /home/rohit/Documents/Druva/tictactoe
+47 verbose already installed skipping grunt-usemin@~2.0.0 /home/rohit/Documents/Druva/tictactoe
+48 verbose cache add [ 'grunt-mocha@~0.4.0', null ]
+49 verbose cache add name=undefined spec="grunt-mocha@~0.4.0" args=["grunt-mocha@~0.4.0",null]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: 'grunt-mocha@~0.4.0',
+50 verbose parsed url   path: 'grunt-mocha@~0.4.0',
+50 verbose parsed url   href: 'grunt-mocha@~0.4.0' }
+51 verbose cache add name="grunt-mocha" spec="~0.4.0" args=["grunt-mocha","~0.4.0"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: '~0.4.0',
+52 verbose parsed url   path: '~0.4.0',
+52 verbose parsed url   href: '~0.4.0' }
+53 verbose addNamed [ 'grunt-mocha', '~0.4.0' ]
+54 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+55 silly lockFile 4854fb45-grunt-mocha-0-4-0 grunt-mocha@~0.4.0
+56 verbose lock grunt-mocha@~0.4.0 /home/rohit/.npm/4854fb45-grunt-mocha-0-4-0.lock
+57 verbose already installed skipping grunt-newer@~0.6.0 /home/rohit/Documents/Druva/tictactoe
+58 verbose already installed skipping grunt-svgmin@~0.2.0 /home/rohit/Documents/Druva/tictactoe
+59 silly addNameRange { name: 'grunt-contrib-imagemin',
+59 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+59 silly addNameRange   hasData: false }
+60 verbose already installed skipping grunt-concurrent@~0.4.0 /home/rohit/Documents/Druva/tictactoe
+61 silly addNameRange { name: 'grunt-mocha',
+61 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+61 silly addNameRange   hasData: false }
+62 verbose url raw grunt-contrib-jshint
+63 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+64 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+65 info trying registry request attempt 1 at 16:40:40
+66 verbose etag "CJ53ZIYT1YI2TADFA28GSHQPA"
+67 http GET https://registry.npmjs.org/grunt-contrib-jshint
+68 verbose url raw grunt-contrib-imagemin
+69 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+70 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+71 info trying registry request attempt 1 at 16:40:40
+72 verbose etag "2OTHKWP6Q1MANDP7DGL0WM45N"
+73 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+74 verbose url raw grunt-mocha
+75 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-mocha' ]
+76 verbose url resolved https://registry.npmjs.org/grunt-mocha
+77 info trying registry request attempt 1 at 16:40:40
+78 verbose etag "DH9JE0P0CISO3VCA2UW5YM77R"
+79 http GET https://registry.npmjs.org/grunt-mocha
+80 http 304 https://registry.npmjs.org/grunt-mocha
+81 silly registry.get cb [ 304,
+81 silly registry.get   { date: 'Sun, 24 Aug 2014 11:10:41 GMT',
+81 silly registry.get     server: 'Apache',
+81 silly registry.get     via: '1.1 varnish',
+81 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 11:10:41 GMT',
+81 silly registry.get     'cache-control': 'max-age=60',
+81 silly registry.get     etag: '"DH9JE0P0CISO3VCA2UW5YM77R"',
+81 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+81 silly registry.get     'x-cache': 'HIT',
+81 silly registry.get     'x-cache-hits': '1',
+81 silly registry.get     'x-timer': 'S1408878641.331004,VS0,VE71',
+81 silly registry.get     vary: 'Accept',
+81 silly registry.get     'content-length': '0',
+81 silly registry.get     'keep-alive': 'timeout=10, max=50',
+81 silly registry.get     connection: 'Keep-Alive' } ]
+82 verbose etag grunt-mocha from cache
+83 silly addNameRange number 2 { name: 'grunt-mocha',
+83 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+83 silly addNameRange   hasData: true }
+84 silly addNameRange versions [ 'grunt-mocha',
+84 silly addNameRange   [ '0.1.0',
+84 silly addNameRange     '0.1.1',
+84 silly addNameRange     '0.1.2',
+84 silly addNameRange     '0.1.3',
+84 silly addNameRange     '0.1.4',
+84 silly addNameRange     '0.1.5',
+84 silly addNameRange     '0.1.6',
+84 silly addNameRange     '0.1.7',
+84 silly addNameRange     '0.2.0',
+84 silly addNameRange     '0.2.1',
+84 silly addNameRange     '0.2.2',
+84 silly addNameRange     '0.2.3',
+84 silly addNameRange     '0.3.0',
+84 silly addNameRange     '0.3.1',
+84 silly addNameRange     '0.3.2',
+84 silly addNameRange     '0.3.3',
+84 silly addNameRange     '0.3.4',
+84 silly addNameRange     '0.4.0',
+84 silly addNameRange     '0.4.1',
+84 silly addNameRange     '0.4.4',
+84 silly addNameRange     '0.4.5',
+84 silly addNameRange     '0.4.6',
+84 silly addNameRange     '0.4.7',
+84 silly addNameRange     '0.4.8',
+84 silly addNameRange     '0.4.9',
+84 silly addNameRange     '0.4.10',
+84 silly addNameRange     '0.4.11' ] ]
+85 verbose addNamed [ 'grunt-mocha', '0.4.11' ]
+86 verbose addNamed [ '0.4.11', '0.4.11' ]
+87 silly lockFile f98f2b4e-grunt-mocha-0-4-11 grunt-mocha@0.4.11
+88 verbose lock grunt-mocha@0.4.11 /home/rohit/.npm/f98f2b4e-grunt-mocha-0-4-11.lock
+89 silly lockFile f98f2b4e-grunt-mocha-0-4-11 grunt-mocha@0.4.11
+90 silly lockFile f98f2b4e-grunt-mocha-0-4-11 grunt-mocha@0.4.11
+91 silly lockFile 4854fb45-grunt-mocha-0-4-0 grunt-mocha@~0.4.0
+92 silly lockFile 4854fb45-grunt-mocha-0-4-0 grunt-mocha@~0.4.0
+93 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+94 silly registry.get cb [ 304,
+94 silly registry.get   { date: 'Sun, 24 Aug 2014 11:10:41 GMT',
+94 silly registry.get     server: 'Apache',
+94 silly registry.get     via: '1.1 varnish',
+94 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 11:10:41 GMT',
+94 silly registry.get     'cache-control': 'max-age=60',
+94 silly registry.get     etag: '"2OTHKWP6Q1MANDP7DGL0WM45N"',
+94 silly registry.get     'x-served-by': 'cache-lax1420-LAX',
+94 silly registry.get     'x-cache': 'HIT',
+94 silly registry.get     'x-cache-hits': '1',
+94 silly registry.get     'x-timer': 'S1408878641.294730,VS0,VE313',
+94 silly registry.get     vary: 'Accept',
+94 silly registry.get     'content-length': '0',
+94 silly registry.get     'keep-alive': 'timeout=10, max=50',
+94 silly registry.get     connection: 'Keep-Alive' } ]
+95 verbose etag grunt-contrib-imagemin from cache
+96 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+96 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+96 silly addNameRange   hasData: true }
+97 silly addNameRange versions [ 'grunt-contrib-imagemin',
+97 silly addNameRange   [ '0.1.0',
+97 silly addNameRange     '0.1.1',
+97 silly addNameRange     '0.1.2',
+97 silly addNameRange     '0.1.3',
+97 silly addNameRange     '0.1.4',
+97 silly addNameRange     '0.1.1-rc7',
+97 silly addNameRange     '0.1.1-rc8',
+97 silly addNameRange     '0.2.0',
+97 silly addNameRange     '0.2.1',
+97 silly addNameRange     '0.3.0',
+97 silly addNameRange     '0.4.0',
+97 silly addNameRange     '0.4.1',
+97 silly addNameRange     '0.5.0',
+97 silly addNameRange     '0.6.0',
+97 silly addNameRange     '0.6.1',
+97 silly addNameRange     '0.7.0',
+97 silly addNameRange     '0.7.1',
+97 silly addNameRange     '0.7.2',
+97 silly addNameRange     '0.8.0' ] ]
+98 verbose addNamed [ 'grunt-contrib-imagemin', '0.2.1' ]
+99 verbose addNamed [ '0.2.1', '0.2.1' ]
+100 silly lockFile c4800b2c-grunt-contrib-imagemin-0-2-1 grunt-contrib-imagemin@0.2.1
+101 verbose lock grunt-contrib-imagemin@0.2.1 /home/rohit/.npm/c4800b2c-grunt-contrib-imagemin-0-2-1.lock
+102 http 304 https://registry.npmjs.org/grunt-contrib-jshint
+103 silly registry.get cb [ 304,
+103 silly registry.get   { date: 'Sun, 24 Aug 2014 11:10:41 GMT',
+103 silly registry.get     server: 'Apache',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     'last-modified': 'Sun, 24 Aug 2014 11:10:41 GMT',
+103 silly registry.get     'cache-control': 'max-age=60',
+103 silly registry.get     etag: '"CJ53ZIYT1YI2TADFA28GSHQPA"',
+103 silly registry.get     'x-served-by': 'cache-lax1427-LAX',
+103 silly registry.get     'x-cache': 'HIT',
+103 silly registry.get     'x-cache-hits': '1',
+103 silly registry.get     'x-timer': 'S1408878641.325937,VS0,VE309',
+103 silly registry.get     vary: 'Accept',
+103 silly registry.get     'content-length': '0',
+103 silly registry.get     'keep-alive': 'timeout=10, max=50',
+103 silly registry.get     connection: 'Keep-Alive' } ]
+104 verbose etag grunt-contrib-jshint from cache
+105 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+105 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+105 silly addNameRange   hasData: true }
+106 silly addNameRange versions [ 'grunt-contrib-jshint',
+106 silly addNameRange   [ '0.1.0',
+106 silly addNameRange     '0.1.1',
+106 silly addNameRange     '0.2.0',
+106 silly addNameRange     '0.3.0',
+106 silly addNameRange     '0.4.0',
+106 silly addNameRange     '0.4.1',
+106 silly addNameRange     '0.4.2',
+106 silly addNameRange     '0.4.3',
+106 silly addNameRange     '0.5.0',
+106 silly addNameRange     '0.5.1',
+106 silly addNameRange     '0.5.2',
+106 silly addNameRange     '0.5.3',
+106 silly addNameRange     '0.5.4',
+106 silly addNameRange     '0.6.0',
+106 silly addNameRange     '0.6.1',
+106 silly addNameRange     '0.6.2',
+106 silly addNameRange     '0.6.3',
+106 silly addNameRange     '0.6.4',
+106 silly addNameRange     '0.6.5',
+106 silly addNameRange     '0.7.0',
+106 silly addNameRange     '0.7.1',
+106 silly addNameRange     '0.7.2',
+106 silly addNameRange     '0.8.0',
+106 silly addNameRange     '0.9.0',
+106 silly addNameRange     '0.9.1',
+106 silly addNameRange     '0.9.2',
+106 silly addNameRange     '0.10.0',
+106 silly addNameRange     '0.1.1-rc5',
+106 silly addNameRange     '0.1.1-rc6' ] ]
+107 verbose addNamed [ 'grunt-contrib-jshint', '0.7.2' ]
+108 verbose addNamed [ '0.7.2', '0.7.2' ]
+109 silly lockFile ee270f24-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@0.7.2
+110 verbose lock grunt-contrib-jshint@0.7.2 /home/rohit/.npm/ee270f24-grunt-contrib-jshint-0-7-2.lock
+111 silly lockFile c4800b2c-grunt-contrib-imagemin-0-2-1 grunt-contrib-imagemin@0.2.1
+112 silly lockFile c4800b2c-grunt-contrib-imagemin-0-2-1 grunt-contrib-imagemin@0.2.1
+113 silly lockFile 65f7368c-grunt-contrib-imagemin-0-2-0 grunt-contrib-imagemin@~0.2.0
+114 silly lockFile 65f7368c-grunt-contrib-imagemin-0-2-0 grunt-contrib-imagemin@~0.2.0
+115 silly lockFile ee270f24-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@0.7.2
+116 silly lockFile ee270f24-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@0.7.2
+117 silly lockFile c1ebcc7c-grunt-contrib-jshint-0-7-0 grunt-contrib-jshint@~0.7.0
+118 silly lockFile c1ebcc7c-grunt-contrib-jshint-0-7-0 grunt-contrib-jshint@~0.7.0
+119 silly resolved [ { name: 'grunt-mocha',
+119 silly resolved     description: 'Grunt task for running client-side Mocha specs in PhantomJS',
+119 silly resolved     version: '0.4.11',
+119 silly resolved     homepage: 'https://github.com/kmiyashiro/grunt-mocha',
+119 silly resolved     registry: 'http://registry.npmjs.org/',
+119 silly resolved     author:
+119 silly resolved      { name: 'Kelly Miyashiro',
+119 silly resolved        email: 'miyashiro.kelly@gmail.com',
+119 silly resolved        url: 'http://non-diligent.com' },
+119 silly resolved     repository:
+119 silly resolved      { type: 'git',
+119 silly resolved        url: 'git://github.com/kmiyashiro/grunt-mocha.git' },
+119 silly resolved     bugs: { url: 'https://github.com/kmiyashiro/grunt-mocha/issues' },
+119 silly resolved     licenses: [ [Object] ],
+119 silly resolved     main: 'Gruntfile.js',
+119 silly resolved     engines: { node: '*' },
+119 silly resolved     scripts: { test: './node_modules/.bin/grunt test' },
+119 silly resolved     dependencies:
+119 silly resolved      { 'grunt-lib-phantomjs': '~0.4',
+119 silly resolved        mocha: '~1.18',
+119 silly resolved        lodash: '~2.3.0' },
+119 silly resolved     peerDependencies: { grunt: '~0.4' },
+119 silly resolved     devDependencies:
+119 silly resolved      { grunt: '~0.4',
+119 silly resolved        'grunt-contrib-connect': '~0.2',
+119 silly resolved        'grunt-contrib-jshint': '~0.3' },
+119 silly resolved     keywords: [ 'gruntplugin', 'mocha', 'test', 'phantomjs' ],
+119 silly resolved     files: [ 'growl', 'phantomjs', 'support', 'tasks' ],
+119 silly resolved     readme: '# grunt-mocha\n\n> Automatically run *client-side* mocha specs via grunt/mocha/PhantomJS\n\nFor a grunt task for server-side mocha tests, see [grunt-mocha-test](https://github.com/pghalliday/grunt-mocha-test) or [grunt-simple-mocha](https://github.com/yaymukund/grunt-simple-mocha)\n\n## Getting Started\n\nThis plugin requires Grunt `~0.4.0`. Use a `0.1.x` tag of this plugin to use with Grunt `~0.3.0`.\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-mocha --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-mocha\');\n```\n\n## Mocha task\n_Run this task with the `grunt mocha` command._\n\n### Settings\n\n#### files/src\n\nType: `String|Array`\n\nThis defines which HTML spec files to run using PhantomJS. These are the same files you would open to run tests in a browser.\n\nThere are a number of options available. Please review the [minimatch options here](https://github.com/isaacs/minimatch#options).\n\nExample:\n```js\nmocha: {\n  test: {\n    src: [\'tests/**/*.html\'],\n  },\n},\n```\n\n#### dest\nType: `String`\nDefault: `undefined`\n\nWrite reporter output to a file. Useful if you need a file to feed your CI bot.\n\nExample:\n```js\nmocha: {\n  test: {\n    options: {\n      reporter: \'XUnit\'\n    },\n    src: [\'tests/**/*.html\'],\n    dest: \'./test/output/xunit.out\',\n  },\n},\n```\n\n#### options.run\nType: `Boolean`\nDefault: `false`\n\n**NOTE:** This will probably default to true in `0.5`.\n\ngrunt-mocha injects a script into the PhantomJS instance that loads your HTML spec files. The file sets up a reporter and listeners so the output can be output in the command line. This option will call `mocha.run()` after the script is injected, ensuring that the proper listeners are setup.\n\nYou may want to set this to false if your files are loaded asynchronously via AMD and call `mocha.run` in your own callback.\n\nIn HTML spec:\n```html\n<!-- run mocha after all test are loaded -->\n<script type="text/javascript" charset="utf-8">\n  // Only tests run in real browser, injected script run if options.run == true\n  if (navigator.userAgent.indexOf(\'PhantomJS\') < 0) {\n    mocha.run();\n  }\n</script>\n```\n\nGruntfile:\n```js\nmocha: {\n  test: {\n    src: [\'tests/**/*.html\'],\n    options: {\n      run: true,\n    },\n  },\n},\n```\n\n#### options.urls\nType: `Array|String`\nDefault: `[]`\n\nInstead of files, hit these URLs. Usually used in conjunction with the connect task to spin up a server for testing.\n\n```js\nconnect: {\n  server: {\n    options: {\n      port: 8888,\n      base: \'.\',\n    },\n  },\n},\nmocha: {\n  test: {\n    options: {\n      urls: [ \'http://localhost:8888/example/test/test2.html\' ],\n    },\n  },\n},\n```\n\nThen run:\n```\ngrunt connect mocha\n```\n\n#### options.timeout\nType: `Number`\nDefault: `5000`\n\nPhantomJS timeout in milliseconds. If nothing happens within 5 seconds, exit.\n\nExample:\n```js\nmocha: {\n  test: {\n    src: [\'tests/**/*.html\'],\n    options: {\n      timeout: 10000,\n    },\n  },\n},\n```\n\n#### options.bail\nType: `Boolean`\nDefault: `false`\n\nCall `grunt.warn` and exit the grunt task on the first failed test. This only calls `grunt.warn` after the entire spec file is finished.\n\nExample:\n```js\nmocha: {\n  test: {\n    src: [\'tests/**/*.html\'],\n    options: {\n      bail: true,\n    },\n  },\n},\n```\n\n#### options.growlOnSuccess\nType: `Boolean`\nDefault: `true`\n\nDisplay a Growl notification when all tests successfully pass.\n\nExample:\n```js\nmocha: {\n  test: {\n    src: [\'tests/**/*.html\'],\n    options: {\n      growlOnSuccess: false,\n    },\n  },\n},\n```\n\n#### options.log\nType: `Boolean`\nDefault: `false`\n\nPrint any `console.log` calls from PhantomJS to the command line. Only used for very quick and dirty debugging. It is highly recommended that you open the failing spec file in a browser so you can use much richer debugging tools.\n\nExample:\n```js\nmocha: {\n  test: {\n    src: [\'tests/**/*.html\'],\n    options: {\n      log: true,\n    },\n  },\n},\n```\n\n#### options.logErrors\nType: `Boolean`\nDefault: `false`\n\nFail and output script errors.\n\nExample:\n```js\nmocha: {\n  test: {\n    src: [\'tests/**/*.html\'],\n    options: {\n      logErrors: true,\n    },\n  },\n},\n```\n\n#### options.mocha\nType: `Object`\n\nA mocha options simple object. Very few options are currently supported. Actually, I think `grep` is the only one.\n\nExample:\n```js\nmocha: {\n  test: {\n    src: [\'tests/**/*.html\'],\n    options: {\n      mocha: {\n        grep: \'router*\'\n      }\n    }\n  },\n},\n```\n\n#### options.reporter\nType: `String`\nDefault: `\'Dot\'`\n\nThe reporter to use. **Note:** XUnit and those types of reporters should probably use the `dest` option.\n\nExample:\n```js\nmocha: {\n  test: {\n    files: [\'tests/**/*.html\'],\n    options: {\n      reporter: \'Nyan\',\n    }\n  },\n},\n```\n\nCustom reporter example:\nExample:\n```js\nmocha: {\n  test: {\n    files: [\'tests/**/*.html\'],\n    options {\n      reporter: \'./path/to/custom/reporter\', // included via require\n    },\n  },\n},\n```\n\n## Hacks\n\nThe PhantomJS -> Grunt superdimensional conduit uses `alert`. If you have disabled or aliased alert in your app, this won\'t work. I have conveniently set a global `PHANTOMJS` on `window` so you can conditionally override alert in your app.\n\n## Examples\n\n### Vanilla JS\n\n#### Option 1 (recommended)\n\n- Write mocha task description in grunt config using and specify `run: true` option (see [this task\'s Gruntfile.js](Gruntfile.js) for details);\n- Check for PhantomJS `userAgent` in a test html file and run tests only in a real browser (see [test2.html](example/test/test2.html) for details).\n\nIn this case you shouldn\'t include [bridge.js](phantomjs/bridge.js) (it will be included automatically) and tests will be run from [bridge.js](phantomjs/bridge.js).\n\n#### Option 2\n\nAlternatively, include `bridge.js` from `tasks/phantomjs` after you include `mocha.js` and run `mocha.setup` in your HTML file. The helper will override `mocha.setup` if it detects PhantomJS. See [test.html](example/test/test.html).\n\n### AMD\n\nMocha **must** be included via script tag in the header. There is no need to load Mocha via AMD. You may load other testing libs via AMD if that gives you a fuzzy feeling.\n\nExample setup with AMD (advanced): https://gist.github.com/2655876\n\n## License\nCopyright (c) 2013 Kelly Miyashiro\nLicensed under the MIT license.\n',
+119 silly resolved     readmeFilename: 'README.md',
+119 silly resolved     _id: 'grunt-mocha@0.4.11',
+119 silly resolved     _from: 'grunt-mocha@~0.4.0' },
+119 silly resolved   { name: 'grunt-contrib-imagemin',
+119 silly resolved     description: 'Minify PNG and JPEG images',
+119 silly resolved     version: '0.2.1',
+119 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-imagemin',
+119 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+119 silly resolved     repository:
+119 silly resolved      { type: 'git',
+119 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-imagemin.git' },
+119 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-imagemin/issues' },
+119 silly resolved     licenses: [ [Object] ],
+119 silly resolved     main: 'Gruntfile.js',
+119 silly resolved     engines: { node: '>=0.8.0' },
+119 silly resolved     scripts: { test: 'grunt test' },
+119 silly resolved     dependencies:
+119 silly resolved      { filesize: '~1.10.0',
+119 silly resolved        'jpegtran-bin': '~0.2.0',
+119 silly resolved        'optipng-bin': '~0.3.0',
+119 silly resolved        gifsicle: '~0.1.0',
+119 silly resolved        'pngquant-bin': '~0.1.0',
+119 silly resolved        chalk: '~0.2.0' },
+119 silly resolved     devDependencies:
+119 silly resolved      { 'grunt-contrib-internal': '~0.4.3',
+119 silly resolved        'grunt-contrib-clean': '~0.5.0',
+119 silly resolved        'grunt-contrib-jshint': '~0.6.2',
+119 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+119 silly resolved        grunt: '~0.4.0' },
+119 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+119 silly resolved     keywords:
+119 silly resolved      [ 'gruntplugin',
+119 silly resolved        'image',
+119 silly resolved        'img',
+119 silly resolved        'minify',
+119 silly resolved        'compress',
+119 silly resolved        'png',
+119 silly resolved        'jpg',
+119 silly resolved        'jpeg' ],
+119 silly resolved     files: [ 'tasks/imagemin.js' ],
+119 silly resolved     readme: '# grunt-contrib-imagemin [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-contrib-imagemin.png?branch=master)](http://travis-ci.org/gruntjs/grunt-contrib-imagemin)\n\n> Minify PNG and JPEG images\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-imagemin --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-imagemin\');\n```\n\n\n\n\n## Imagemin task\n_Run this task with the `grunt imagemin` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n\nMinify images using [OptiPNG](http://optipng.sourceforge.net), [pngquant](http://pngquant.org), [jpegtran](http://jpegclub.org/jpegtran/) and [gifsicle](http://www.lcdf.org/gifsicle).\n\nImages will be cached and only minified again if they change.\n\n### Options\n\nOptions will only apply to the relevant files, so you don\'t need separate targets for png/jpg.\n\n\n#### optimizationLevel *(png only)*\n\nType: `Number`\nDefault: `7`\n\nSelect optimization level between `0` and `7`.\n\n> The optimization level 0 enables a set of optimization operations that require minimal effort. There will be no changes to image attributes like bit depth or color type, and no recompression of existing IDAT datastreams. The optimization level 1 enables a single IDAT compression trial. The trial chosen is what. OptiPNG thinks it’s probably the most effective. The optimization levels 2 and higher enable multiple IDAT compression trials; the higher the level, the more trials.\n\nLevel and trials:\n\n1. 1 trial\n2. 8 trials\n3. 16 trials\n4. 24 trials\n5. 48 trials\n6. 120 trials\n7. 240 trials\n\n\n#### progressive *(jpg only)*\n\nType: `Boolean`\nDefault: `true`\n\nLossless conversion to progressive.\n\n\n#### pngquant\n\nType: `Boolean`\nDefault: `true`\n\nWhether to enable pngquant compression.\n\n> pngquant is a command-line utility for converting 24/32-bit PNG images to paletted (8-bit) PNGs. The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency.\n\n#### Example config\n\nYou can either map your files statically or [dynamically](https://github.com/gruntjs/grunt/wiki/Configuring-tasks#building-the-files-object-dynamically).\n\n```javascript\ngrunt.initConfig({\n  imagemin: {                          // Task\n    static: {                          // Target\n      options: {                       // Target options\n        optimizationLevel: 3\n      },\n      files: {                         // Dictionary of files\n        \'dist/img.png\': \'src/img.png\', // \'destination\': \'source\'\n        \'dist/img.jpg\': \'src/img.jpg\',\n        \'dist/img.gif\': \'src/img.gif\'\n      }\n    },\n    dynamic: {                         // Another target\n      files: [{\n        expand: true,                  // Enable dynamic expansion\n        cwd: \'src/\',                   // Src matches are relative to this path\n        src: [\'**/*.{png,jpg,gif}\'],   // Actual patterns to match\n        dest: \'dist/\'                  // Destination path prefix\n      }]\n    }\n  }\n});\n\ngrunt.loadNpmTasks(\'grunt-contrib-imagemin\');\ngrunt.registerTask(\'default\', [\'imagemin\']);\n```\n\n\n## Release History\n\n * 2013-08-16   v0.2.0   Add `gifsicle` and `pngquant`. Cache images so only changed images are optimized. Default `optimizationLevel` to `7` and `progressive` to `true`.\n * 2013-04-10   v0.1.4   Fix exception when running in verbose mode.\n * 2013-04-05   v0.1.3   Fix OptiPNG not being able to overwrite file. Allow overwriting src when dest/src is the same. Limit to 10 concurrent optimizations.\n * 2013-02-22   v0.1.2   Fix OptiPNG not working on some systems. Prevent OptiPNG from producing .bak files.\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-30   v0.1.1rc8   Fix task not creating destination folders\n * 2013-01-30   v0.1.1rc7   Updating to work with grunt v0.4.0rc7. Switching to this.files api.\n * 2012-11-01   v0.1.0   Initial release.\n\n---\n\nTask submitted by [Sindre Sorhus](http://github.com/sindresorhus)\n\n*This file was generated on Fri Aug 16 2013 20:16:49.*\n',
+119 silly resolved     readmeFilename: 'README.md',
+119 silly resolved     _id: 'grunt-contrib-imagemin@0.2.1',
+119 silly resolved     _from: 'grunt-contrib-imagemin@~0.2.0' },
+119 silly resolved   { name: 'grunt-contrib-jshint',
+119 silly resolved     description: 'Validate files with JSHint.',
+119 silly resolved     version: '0.7.2',
+119 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+119 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+119 silly resolved     repository:
+119 silly resolved      { type: 'git',
+119 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+119 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+119 silly resolved     licenses: [ [Object] ],
+119 silly resolved     engines: { node: '>= 0.8.0' },
+119 silly resolved     scripts: { test: 'grunt test' },
+119 silly resolved     dependencies: { jshint: '~2.3.0' },
+119 silly resolved     devDependencies:
+119 silly resolved      { 'grunt-contrib-nodeunit': '~0.1.2',
+119 silly resolved        'grunt-contrib-internal': '~0.4.6',
+119 silly resolved        grunt: '~0.4.0' },
+119 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+119 silly resolved     keywords: [ 'gruntplugin' ],
+119 silly resolved     contributors: [ [Object], [Object] ],
+119 silly resolved     readme: '# grunt-contrib-jshint v0.7.2 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-jshint.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-jshint)\n\n> Validate files with JSHint.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-jshint --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-jshint\');\n```\n\n\n\n\n## Jshint task\n_Run this task with the `grunt jshint` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n\nFor more explanations of the lint errors JSHint will throw at you please visit [jslinterrors.com](http://jslinterrors.com/).\n\n### Options\n\nAny specified option will be passed through directly to [JSHint][], thus you can specify any option that JSHint supports. See the [JSHint documentation][] for a list of supported options.\n\n[JSHint]: http://www.jshint.com/\n[JSHint documentation]: http://www.jshint.com/docs/\n\nA few additional options are supported:\n\n#### globals\nType: `Object`\nDefault value: `null`\n\nA map of global variables, with keys as names and a boolean value to determine if they are assignable. This is not a standard JSHint option, but is passed into the `JSHINT` function as its third argument. See the [JSHint documentation][] for more information.\n\n#### jshintrc\nType: `String` or `true`\nDefault value: `null`\n\nIf set to `true`, no config will be sent to jshint and jshint will search for `.jshintrc` files relative to the flies being linted.\n\nIf a filename is specified, options and globals defined therein will be used. The `jshintrc` file must be valid JSON and looks something like this:\n\n```json\n{\n  "curly": true,\n  "eqnull": true,\n  "eqeqeq": true,\n  "undef": true,\n  "globals": {\n    "jQuery": true\n  }\n}\n```\n\n*Be aware that `jshintrc` settings are not merged with your Grunt options.*\n\n#### extensions\nType: `String`\nDefault value: `\'\'`\n\nA list of non-dot-js extensions to check.\n\n#### ignores\nType: `Array`\nDefault value: `null`\n\nA list of files and dirs to ignore. This will override your `.jshintignore` file if set and does not merge.\n\n#### force\nType: `Boolean`\nDefault value: `false`\n\nSet `force` to `true` to report JSHint errors but not fail the task.\n\n#### reporter\nType: `String`\nDefault value: `null`\n\nAllows you to modify this plugins output. By default it will use a built-in Grunt reporter. Set the path to your own custom reporter or to one of the built-in JSHint reporters: `jslint` or `checkstyle`.\n\nSee also: [Writing your own JSHint reporter.](http://jshint.com/docs/reporters/)\n\n#### reporterOutput\nType: `String`\nDefault value: `null`\n\nSpecify a filepath to output the results of a reporter. If `reporterOutput` is specified then all output will be written to the given filepath instead of printed to stdout.\n\n### Usage examples\n\n#### Wildcards\nIn this example, running `grunt jshint:all` (or `grunt jshint` because `jshint` is a [multi task](http://gruntjs.com/configuring-tasks#task-configuration-and-targets)) will lint the project\'s Gruntfile as well as all JavaScript files in the `lib` and `test` directories and their subdirectores, using the default JSHint options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  jshint: {\n    all: [\'Gruntfile.js\', \'lib/**/*.js\', \'test/**/*.js\']\n  }\n});\n```\n\n#### Linting before and after concatenating\nIn this example, running `grunt jshint` will lint both the "beforeconcat" set and "afterconcat" sets of files. This is not ideal, because `dist/output.js` may get linted before it gets created via the [grunt-contrib-concat plugin](https://github.com/gruntjs/grunt-contrib-concat) `concat` task.\n\nIn this case, you should lint the "beforeconcat" files first, then concat, then lint the "afterconcat" files, by running `grunt jshint:beforeconcat concat jshint:afterconcat`.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  concat: {\n    dist: {\n      src: [\'src/foo.js\', \'src/bar.js\'],\n      dest: \'dist/output.js\'\n    }\n  },\n  jshint: {\n    beforeconcat: [\'src/foo.js\', \'src/bar.js\'],\n    afterconcat: [\'dist/output.js\']\n  }\n});\n```\n\n#### Specifying JSHint options and globals\n\nIn this example, custom JSHint options are specified. Note that when `grunt jshint:uses_defaults` is run, those files are linted using the default options, but when `grunt jshint:with_overrides` is run, those files are linted using _merged_ task/target options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  jshint: {\n    options: {\n      curly: true,\n      eqeqeq: true,\n      eqnull: true,\n      browser: true,\n      globals: {\n        jQuery: true\n      },\n    },\n    uses_defaults: [\'dir1/**/*.js\', \'dir2/**/*.js\'],\n    with_overrides: {\n      options: {\n        curly: false,\n        undef: true,\n      },\n      files: {\n        src: [\'dir3/**/*.js\', \'dir4/**/*.js\']\n      },\n    }\n  },\n});\n```\n\n#### Ignoring specific warnings\n\nIf you would like to ignore a specific warning:\n\n```shell\n[L24:C9] W015: Expected \'}\' to have an indentation at 11 instead at 9.\n```\n\nYou can toggle it by prepending `-` to the warning id as an option:\n\n```js\ngrunt.initConfig({\n  jshint: {\n    ignore_warning: {\n      options: {\n        \'-W015\': true,\n      },\n      src: [\'**/*.js\'],\n    },\n  },\n});\n```\n\n#### Ignoring specific files\n\nOccasionally application files and third party libraries share the same directory.  To exclude third party code, but include all current and future application files, use a glob for `files` and specifically exclude libraries using `ignores`.  In this example, the jQuery file is matched by the glob but subsequently ignored when JSHint does its analysis.\n\n```js\ngrunt.initConfig({\n    jshint: {\n        files: [\'js/*.js\'],\n        options: {\n            ignores: [\'js/jquery.js\']\n        }\n    }\n});\n```\n\n\n## Release History\n\n * 2013-11-16   v0.7.2   Only print file name once per error.\n * 2013-10-31   v0.7.1   Ability to set jshintrc option to true to use jshint\'s native ability for finding .jshintrc files relative to the linted files.\n * 2013-10-23   v0.7.0   Update to jshint 2.3.0.\n * 2013-10-23   v0.6.5   Fix output when maxerr is low.\n * 2013-08-29   v0.6.4   jshintrc now loaded by jshint allowing comments.\n * 2013-08-15   v0.6.3   Fix module location for jshint 2.1.10.\n * 2013-07-29   v0.6.2   Update to jshint 2.1.7.\n * 2013-07-27   v0.6.1   Peg jshint to 2.1.4 until breaking changes in 2.1.5 are fixed.\n * 2013-06-02   v0.6.0   Dont always succeed the task when using a custom reporter. Bump jshint to 2.1.3.\n * 2013-05-22   v0.5.4   Fix default reporter to show offending file.\n * 2013-05-19   v0.5.3   Performance: Execute the reporter once rather than per file.\n * 2013-05-18   v0.5.2   Fix printing too many erroneous ignored file errors.\n * 2013-05-17   v0.5.1   Fix for when only 1 file is lint free.\n * 2013-05-17   v0.5.0   Bump to jshint 2.0. Add support for .jshintignore files and ignores option Add support for extensions option. Add support for custom reporters and output report to a file.\n * 2013-04-08   v0.4.3   Fix evaluation of predef option when it\'s an object.\n * 2013-04-08   v0.4.2   Avoid wiping force option when jshintrc is used.\n * 2013-04-06   v0.4.1   Fix to allow object type for deprecated predef.\n * 2013-04-04   v0.4.0   Revert task level options to override jshintrc files.\n * 2013-03-13   v0.3.0   Bump to JSHint 1.1.0. Add force option to report JSHint errors but not fail the task. Add error/warning code to message. Allow task level options to override jshintrc file.\n * 2013-02-26   v0.2.0   Bump to JSHint 1.0\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.1rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.1rc5   Updating to work with grunt v0.4.0rc5. Switching to this.filesSrc api.\n * 2012-10-18   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com/)\n\n*This file was generated on Sat Nov 16 2013 09:34:14.*\n',
+119 silly resolved     readmeFilename: 'README.md',
+119 silly resolved     _id: 'grunt-contrib-jshint@0.7.2',
+119 silly resolved     _from: 'grunt-contrib-jshint@~0.7.0' } ]
+120 info install grunt-mocha@0.4.11 into /home/rohit/Documents/Druva/tictactoe
+121 info install grunt-contrib-imagemin@0.2.1 into /home/rohit/Documents/Druva/tictactoe
+122 info install grunt-contrib-jshint@0.7.2 into /home/rohit/Documents/Druva/tictactoe
+123 info installOne grunt-mocha@0.4.11
+124 info installOne grunt-contrib-imagemin@0.2.1
+125 info installOne grunt-contrib-jshint@0.7.2
+126 info /home/rohit/Documents/Druva/tictactoe/node_modules/grunt-contrib-jshint unbuild
+127 info /home/rohit/Documents/Druva/tictactoe/node_modules/grunt-mocha unbuild
+128 info preuninstall mocha@1.21.4
+129 info /home/rohit/Documents/Druva/tictactoe/node_modules/grunt-contrib-imagemin unbuild
+130 info uninstall mocha@1.21.4
+131 verbose tar unpack /home/rohit/.npm/grunt-contrib-jshint/0.7.2/package.tgz
+132 silly lockFile 15b2d367-ode-modules-grunt-contrib-jshint tar:///home/rohit/Documents/Druva/tictactoe/node_modules/grunt-contrib-jshint
+133 verbose lock tar:///home/rohit/Documents/Druva/tictactoe/node_modules/grunt-contrib-jshint /home/rohit/.npm/15b2d367-ode-modules-grunt-contrib-jshint.lock
+134 silly lockFile 526a7b70-contrib-jshint-0-7-2-package-tgz tar:///home/rohit/.npm/grunt-contrib-jshint/0.7.2/package.tgz
+135 verbose lock tar:///home/rohit/.npm/grunt-contrib-jshint/0.7.2/package.tgz /home/rohit/.npm/526a7b70-contrib-jshint-0-7-2-package-tgz.lock
+136 verbose true,/home/rohit/Documents/Druva/tictactoe/node_modules,/home/rohit/Documents/Druva/tictactoe/node_modules unbuild mocha@1.21.4
+137 verbose /home/rohit/Documents/Druva/tictactoe/node_modules/.bin,[object Object] binRoot
+138 silly gunzTarPerm modes [ '755', '644' ]
+139 info /home/rohit/Documents/Druva/tictactoe/node_modules/grunt-mocha unbuild
+140 info preuninstall mocha@1.21.4
+141 silly gunzTarPerm extractEntry package.json
+142 info uninstall mocha@1.21.4
+143 verbose true,/home/rohit/Documents/Druva/tictactoe/node_modules,/home/rohit/Documents/Druva/tictactoe/node_modules unbuild mocha@1.21.4
+144 verbose /home/rohit/Documents/Druva/tictactoe/node_modules/.bin,[object Object] binRoot
+145 silly gunzTarPerm extractEntry .npmignore
+146 silly gunzTarPerm extractEntry README.md
+147 verbose tar unpack /home/rohit/.npm/grunt-contrib-imagemin/0.2.1/package.tgz
+148 silly lockFile 60dcde7a-e-modules-grunt-contrib-imagemin tar:///home/rohit/Documents/Druva/tictactoe/node_modules/grunt-contrib-imagemin
+149 verbose lock tar:///home/rohit/Documents/Druva/tictactoe/node_modules/grunt-contrib-imagemin /home/rohit/.npm/60dcde7a-e-modules-grunt-contrib-imagemin.lock
+150 silly lockFile eaedd20c-ntrib-imagemin-0-2-1-package-tgz tar:///home/rohit/.npm/grunt-contrib-imagemin/0.2.1/package.tgz
+151 verbose lock tar:///home/rohit/.npm/grunt-contrib-imagemin/0.2.1/package.tgz /home/rohit/.npm/eaedd20c-ntrib-imagemin-0-2-1-package-tgz.lock
+152 error error rolling back Error: Refusing to delete: /home/rohit/Documents/Druva/tictactoe/node_modules/.bin/mocha not in /home/rohit/Documents/Druva/tictactoe/node_modules/grunt-mocha
+152 error error rolling back     at clobberFail (/usr/lib/node_modules/npm/lib/utils/gently-rm.js:41:12)
+152 error error rolling back     at next (/usr/lib/node_modules/npm/lib/utils/gently-rm.js:27:14)
+152 error error rolling back     at /usr/lib/node_modules/npm/lib/utils/gently-rm.js:36:12
+152 error error rolling back     at Object.oncomplete (fs.js:107:15)
+152 error error rolling back  grunt-mocha@0.4.11 { [Error: Refusing to delete: /home/rohit/Documents/Druva/tictactoe/node_modules/.bin/mocha not in /home/rohit/Documents/Druva/tictactoe/node_modules/grunt-mocha]
+152 error error rolling back   code: 'EEXIST',
+152 error error rolling back   path: '/home/rohit/Documents/Druva/tictactoe/node_modules/.bin/mocha' }
+153 error Refusing to delete: /home/rohit/Documents/Druva/tictactoe/node_modules/.bin/mocha not in /home/rohit/Documents/Druva/tictactoe/node_modules/grunt-mocha
+File exists: /home/rohit/Documents/Druva/tictactoe/node_modules/.bin/mocha
+Move it away, and try again.
+154 error System Linux 3.5.0-23-generic
+155 error command "/usr/bin/node" "/usr/bin/npm" "install"
+156 error cwd /home/rohit/Documents/Druva/tictactoe
+157 error node -v v0.10.15
+158 error npm -v 1.3.5
+159 error path /home/rohit/Documents/Druva/tictactoe/node_modules/.bin/mocha
+160 error code EEXIST
+161 verbose exit [ 1, true ]
