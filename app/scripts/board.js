@@ -49,11 +49,7 @@ TICTACTOE.Board = function(){
 			$('#grid').click(function(e){
 				TICTACTOE.Game.cellSelected(e.target.parentNode.rowIndex+1,e.target.cellIndex+1);
 			});
-			/*$('#grid td').click(function(e){
-				debugger;
-				TICTACTOE.Game.cellSelected(($(this).parent().index()+1),($(this).index()+1));
-			});*/
-
+			
 		}
 
 	}
